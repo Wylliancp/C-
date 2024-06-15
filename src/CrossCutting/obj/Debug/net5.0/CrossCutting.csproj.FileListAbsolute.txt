@@ -1,0 +1,15 @@
+C:\Projetos\Tarefa\C#\src\CrossCutting\bin\Debug\net5.0\CrossCutting.deps.json
+C:\Projetos\Tarefa\C#\src\CrossCutting\bin\Debug\net5.0\CrossCutting.dll
+C:\Projetos\Tarefa\C#\src\CrossCutting\bin\Debug\net5.0\ref\CrossCutting.dll
+C:\Projetos\Tarefa\C#\src\CrossCutting\bin\Debug\net5.0\CrossCutting.pdb
+C:\Projetos\Tarefa\C#\src\CrossCutting\obj\Debug\net5.0\CrossCutting.csproj.AssemblyReference.cache
+C:\Projetos\Tarefa\C#\src\CrossCutting\obj\Debug\net5.0\CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Tarefa\C#\src\CrossCutting\obj\Debug\net5.0\CrossCutting.AssemblyInfoInputs.cache
+C:\Projetos\Tarefa\C#\src\CrossCutting\obj\Debug\net5.0\CrossCutting.AssemblyInfo.cs
+C:\Projetos\Tarefa\C#\src\CrossCutting\obj\Debug\net5.0\CrossCutting.csproj.CoreCompileInputs.cache
+C:\Projetos\Tarefa\C#\src\CrossCutting\obj\Debug\net5.0\CrossCutting.dll
+C:\Projetos\Tarefa\C#\src\CrossCutting\obj\Debug\net5.0\ref\CrossCutting.dll
+C:\Projetos\Tarefa\C#\src\CrossCutting\obj\Debug\net5.0\CrossCutting.pdb
+C:\Projetos\Tarefa\C#\src\CrossCutting\bin\Debug\net5.0\Domain.dll
+C:\Projetos\Tarefa\C#\src\CrossCutting\bin\Debug\net5.0\Domain.pdb
+C:\Projetos\Tarefa\C#\src\CrossCutting\obj\Debug\net5.0\CrossCutting.csproj.CopyComplete

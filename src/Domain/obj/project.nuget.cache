@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7TU50OKjCUbATDwe5h31qR2Kuvk3mGuLJXT1ZWeDOXhPeSq+Wd4/TVIvxAHICaLihn7v+7Y2CH+JTr4PuMuzrg==",
+  "success": true,
+  "projectFilePath": "c:\\Projetos\\Tarefa\\C#\\src\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Wyllian\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
