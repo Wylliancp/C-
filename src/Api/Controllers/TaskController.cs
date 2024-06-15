@@ -43,9 +43,16 @@ namespace Api.Controllers
 
         [Route("Finish")]
         [HttpPut]
-        public ICommandResult Update([FromBody] FinishTaskCommand updateTaskCommand, [FromServices] TasksHandler handler)
+        public ICommandResult Finish([FromBody] FinishTaskCommand finishTaskCommand, [FromServices] TasksHandler handler)
         {
-             return handler.Handle(updateTaskCommand);
+             return handler.Handle(finishTaskCommand);
+        }
+
+        [Route("ReOpen")]
+        [HttpPut]
+        public ICommandResult ReOpen([FromBody] ReOpenTaskCommand reOpenTaskCommand, [FromServices] TasksHandler handler)
+        {
+             return handler.Handle(reOpenTaskCommand);
         }
 
         [Route("Delete")]

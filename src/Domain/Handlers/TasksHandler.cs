@@ -60,6 +60,21 @@ namespace Domain.Handlers
             return new GenericResultCommand(true, "Atualizado com Sucesso!", tasks);
         }
 
+        public ICommandResult Handle(ReOpenTaskCommand command)
+        {
+            if(command.Id == 0)
+                return new GenericResultCommand(false,"Id vazio!",null);
+             
+            //repository
+            var tasks = _repository.GetById(command.Id);
+            //reidratar
+            tasks.reopenTasks();
+            //
+            _repository.Update(tasks);
+            //
+            return new GenericResultCommand(true, "Atualizado com Sucesso!", tasks);
+        }
+
         public ICommandResult Handle(DeleteTaskCommand command)
         {
             if(command.id == 0)
