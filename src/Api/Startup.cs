@@ -1,4 +1,5 @@
 
+using System.Text.Json.Serialization;
 using Domain.Handlers;
 using Domain.Interfaces.Repositories;
 using Infra.Context;
@@ -26,11 +27,17 @@ namespace Api
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddControllers().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+                options.JsonSerializerOptions.IgnoreNullValues = true;
+            });
+            services.AddCors();
 
             services.AddControllers();
             // services.AddDbContext<DataContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("ConnectionString")));
             services.AddDbContext<TasksContext>(opt => opt.UseInMemoryDatabase("database"));
-            
+
 
             // Repository
             services.AddTransient<ITasksRepository, TasksRepository>();
@@ -58,6 +65,9 @@ namespace Api
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors(x => x.AllowAnyOrigin()
+                                          .AllowAnyMethod()
+                                          .AllowAnyHeader());
 
             app.UseAuthorization();
 

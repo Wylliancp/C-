@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+hqvGOtu0UxaoYSpUMQK5M3ZPgmAkT5TAX8eqKKZZibRqMxOBUaagbF7yHf9SiUabakJ6bNNqeLsydTYvdXSvA==",
+  "dgSpecHash": "LPc372r+qIGHNBRvRZiRocZyCdVNXc4ckMau6ikzdVHKNlA7uI6i9bivW0xe1/oiTlrIyOXLO15GjI6WV+KVJg==",
   "success": true,
-  "projectFilePath": "c:\\Projetos\\Tarefa\\C#\\src\\Api\\Api.csproj",
+  "projectFilePath": "C:\\Projetos\\Tarefa\\C#\\src\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wyllian\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
     "C:\\Users\\Wyllian\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.10\\microsoft.entityframeworkcore.5.0.10.nupkg.sha512",

@@ -57,7 +57,7 @@ namespace Api.Controllers
 
         [Route("Delete")]
         [HttpDelete]
-        public ICommandResult Delete([FromBody] DeleteTaskCommand deleteTaskCommand, [FromServices] TasksHandler handler)
+        public ICommandResult Delete([FromQuery] DeleteTaskCommand deleteTaskCommand, [FromServices] TasksHandler handler)
         {
              return handler.Handle(deleteTaskCommand);
         }

@@ -1,4 +1,6 @@
-﻿namespace Domain.Enums
+﻿
+
+namespace Domain.Enums
 {
     public enum EResponsible
     {

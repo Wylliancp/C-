@@ -1281,11 +1281,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Projetos\\Tarefa\\C#\\src\\Api\\Api.csproj",
+      "projectUniqueName": "C:\\Projetos\\Tarefa\\C#\\src\\Api\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "c:\\Projetos\\Tarefa\\C#\\src\\Api\\Api.csproj",
+      "projectPath": "C:\\Projetos\\Tarefa\\C#\\src\\Api\\Api.csproj",
       "packagesPath": "C:\\Users\\Wyllian\\.nuget\\packages\\",
-      "outputPath": "c:\\Projetos\\Tarefa\\C#\\src\\Api\\obj\\",
+      "outputPath": "C:\\Projetos\\Tarefa\\C#\\src\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1305,11 +1305,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\Projetos\\Tarefa\\C#\\src\\Domain\\Domain.csproj": {
-              "projectPath": "c:\\Projetos\\Tarefa\\C#\\src\\Domain\\Domain.csproj"
+            "C:\\Projetos\\Tarefa\\C#\\src\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Projetos\\Tarefa\\C#\\src\\Domain\\Domain.csproj"
             },
-            "c:\\Projetos\\Tarefa\\C#\\src\\Infra\\Infra.csproj": {
-              "projectPath": "c:\\Projetos\\Tarefa\\C#\\src\\Infra\\Infra.csproj"
+            "C:\\Projetos\\Tarefa\\C#\\src\\Infra\\Infra.csproj": {
+              "projectPath": "C:\\Projetos\\Tarefa\\C#\\src\\Infra\\Infra.csproj"
             }
           }
         }
