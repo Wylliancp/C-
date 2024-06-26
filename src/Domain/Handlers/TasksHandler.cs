@@ -35,14 +35,14 @@ namespace Domain.Handlers
             if(!command.IsValid)
                 return new GenericResultCommand(false,"Titulo vazio!",null);
              
-            var task = new Tasks("Tarefa domestiva",Enums.EResponsible.Eu,DateTime.Now,true);
             //repository
             var tasks = _repository.GetById(command.Id);
             // reidratacao
+            tasks.UpdataTasks(command.Title,command.Responsible,command.Finished);
             //
-            _repository.Update(task);
+            _repository.Update(tasks);
             //
-            return new GenericResultCommand(true, "Atualizado com Sucesso!", task);
+            return new GenericResultCommand(true, "Atualizado com Sucesso!", tasks);
         }
 
         public ICommandResult Handle(FinishTaskCommand command)

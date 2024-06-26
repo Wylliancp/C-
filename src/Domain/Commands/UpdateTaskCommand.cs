@@ -17,11 +17,11 @@ namespace Domain.Commands
             DataUpdate = DateTime.Now;
         }
 
-       public int Id { get; private set; }
+       public int Id { get; set; }
        public string Title { get; set; }
        public EResponsible Responsible { get; set; }
        public bool Finished { get; set; } 
-       public DateTime DataUpdate { get; set; }
+       public DateTime DataUpdate { get; private set; }
               
     }
 }

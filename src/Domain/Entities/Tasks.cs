@@ -17,23 +17,31 @@ namespace Domain.Entities
             Title = title;
             Responsible = responsible;
             Finished = finished;
-            AddDateCreate(finished);
+            AddDateCreate();
             AddDateEnd(Finished);
         }
 
         public Tasks()
         {
-            
+
         }
-        public void AddDateCreate(bool update)
+        public void AddDateCreate()
         {
-            if(!update)
-                DateCreate = DateTime.Now; 
+            DateCreate = DateTime.Now;
         }
         public void AddDateEnd(bool finished)
         {
-            if(finished)
-                DateEnd = DateTime.Now; 
+            if (finished)
+                DateEnd = DateTime.Now;
+        }
+
+        public void UpdataTasks(string title, EResponsible responsible, bool finished)
+        {
+            Title = title;
+            Responsible = responsible;
+            Finished = finished;
+            AddDateEnd(finished);
+            DateUpdate = DateTime.Now;
         }
 
         public void finishTasks()
@@ -45,6 +53,6 @@ namespace Domain.Entities
         {
             Finished = false;
         }
-        
+
     }
 }

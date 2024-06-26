@@ -41,6 +41,13 @@ namespace Api.Controllers
              return handler.Handle(createTaskCommand);
         }
 
+        [Route("Update")]
+        [HttpPut]
+        public ICommandResult Finish([FromBody] UpdateTaskCommand updateTaskCommand, [FromServices] TasksHandler handler)
+        {
+             return handler.Handle(updateTaskCommand);
+        }
+
         [Route("Finish")]
         [HttpPut]
         public ICommandResult Finish([FromBody] FinishTaskCommand finishTaskCommand, [FromServices] TasksHandler handler)
